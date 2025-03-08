@@ -1,0 +1,67 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background-image: url('https://marketplace.canva.com/EAEvPRTwFtU/3/0/1600w/canva-beige-doodle-heart-desktop-wallpaper-zwtpUKFUbWs.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center; 
+}
+
+
+.h1 h1 {
+  padding: 25px;
+  border-radius: 10px;
+  border: solid 3px black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  background-color: pink;
+  color: black;
+  margin-bottom: 20px; 
+}
+
+
+.button-container {
+  display: flex;
+  flex-direction: row; 
+  gap: 20px; 
+}
+
+
+#letter, #photoalbum {
+  font-family: 'Press Start 2P', system-ui;
+  font-size: 20px;
+  height: 50px;
+  width: 150px;
+  background-color: pink; 
+  border: none;
+  color: RGB(31, 16, 0);
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  margin: 10px;
+}
+
+#letter:hover, #photoalbum:hover {
+  background-color: hotpink; 
+}
+
+
+img {
+  margin-top: 30px;
+  width: 200px;
+  height: auto;
+}
